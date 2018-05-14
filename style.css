@@ -1,0 +1,14 @@
+form{
+  height: 501px;
+  width: 375px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+textarea{
+  grid-column: 1/5;
+}
+
+input:nth-of-type(19){
+  grid-column: 4/5;
+}
