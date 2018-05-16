@@ -1,13 +1,17 @@
-function calcButton() {
-  $(".btn").on("click", function() {
-    if ($(this).text() === "=") {
-      $("#text").text(eval($("#text").text()));
-    } else if ($(this).text() === "c") {
-      $("#text").text("");
-    } else {
-      $("#text").append($(this).text());
-    }
-  });
+function events(){
+
+  var inputs = document.querySelectorAll('input');
+  for(var i=0;i<inputs.length; i++)
+  {
+    inputs[i].addEventListener("click", function(){
+        document.getElementById('screen').innerHTML += this.value;
+    });
+  }
 }
 
-$(document).on("click", calcButton());
+
+window.onload = function(){
+
+  events();
+
+};
