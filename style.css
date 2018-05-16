@@ -1,11 +1,19 @@
-form{
-  height: 501px;
-  width: 375px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+#container{
+  background-image: url("formbackground.png");
+  height: 568px;
+  width: 420px;
+  margin: auto;
 }
 
-textarea{
+form{
+  height: 550px;
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+
+#screen{
   grid-column: 1/5;
 }
 
