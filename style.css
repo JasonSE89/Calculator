@@ -1,4 +1,7 @@
 
+body{
+  background-image: url("Background.png");
+}
 
 .container{
   background-image: url("formbackground.png");
@@ -7,7 +10,7 @@
   display: grid;
   grid-template: 1fr auto 1fr;
   grid-template-rows: 60px 85px 340px 10px;
-  margin: auto;
+  margin: 50px auto auto auto;
   justify-content: center;
 }
 
@@ -31,6 +34,7 @@ form{
   height: 79px;
   grid-column: 1/5;
   margin: auto;
+  overflow: hidden;
 }
 
 input{
@@ -40,7 +44,7 @@ input{
   height: 47px;
   width: 52px;
   border: none;
-
+  outline: none;
   background-repeat: no-repeat;
 }
 
