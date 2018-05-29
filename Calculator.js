@@ -8,6 +8,10 @@ function events(){
         {
           document.getElementById('screen').innerHTML = "";
         }
+        else if(this.value=="&divide;")
+        {
+          document.getElementById('screen').innerHTML += "/";
+        }
         else if(this.value=="="){
           var result = eval(document.getElementById('screen').innerHTML);
           document.getElementById('screen').innerHTML = result;

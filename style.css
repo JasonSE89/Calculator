@@ -1,10 +1,10 @@
 
 body{
-  background-image: url("Background.png");
+  background-image: url("images/Background.png");
 }
 
 .container{
-  background-image: url("formbackground.png");
+  background-image: url("images/formbackground.png");
   height: 568px;
   width: 420px;
   display: grid;
@@ -29,7 +29,7 @@ form{
   vertical-align: middle;
   line-height: 85px;
   font-size: 55px;
-  background-image: url("Screen.png");
+  background-image: url("images/Screen.png");
   width: 283px;
   height: 79px;
   grid-column: 1/5;
@@ -39,7 +39,7 @@ form{
 
 input{
   font-size: 20px;
-  font-style: 'Helvetica';
+  font-style: 'CMU';
   color: white;
   height: 47px;
   width: 52px;
@@ -49,31 +49,31 @@ input{
 }
 
 .lightButton{
-  background-image: url("StandardButtonLight.png");
+  background-image: url("images/StandardButtonLight.png");
 }
 
 .darkButton{
-  background-image: url("DarkBlue.png");
+  background-image: url("images/DarkBlue.png");
 }
 
 .dividerButton{
   border-top-left-radius: 30px;
-  background-image: url("DividerButton.png");
+  background-image: url("images/DividerButton.png");
 }
 
 #clearButton{
   border-top-right-radius: 30px;
-  background-image: url("clearButton.png");
+  background-image: url("images/clearButton.png");
 }
 
 #zeroButton{
   border-bottom-left-radius: 30px;
-  background-image: url("ZeroButton.png")
+  background-image: url("images/ZeroButton.png")
 }
 
 #equalsButton{
   grid-column: 3/5;
   width: 130px;
   border-bottom-right-radius: 30px;
-  background-image: url("equalsButton.png");
+  background-image: url("images/equalsButton.png");
 }
